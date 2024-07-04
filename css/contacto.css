@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    background-color: #333;
+    height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+#nav a:hover{
+    color: darkorange;
+}
+
+#navLetras{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 200px;
+}
+
+#navSeg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedorH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+#contenedorH img{
+    height: 600px;
+}
+
+#seccionP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 51px;
+}
+
+#divFoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divContacto{
+    display: block;
+    align-items: center;
+    text-align: center;
+    /* padding: 175px; */
+}
+
+#divContacto input{
+    width: 500px;
+    height: 30px;
+    /* padding-bottom: 25px; */
+}
+
+#btnConsulta{
+    display: inline;
+}
+
+#seccionP img{
+    width: 85%;
+    height: 400px;
+}
+
+button{
+    display: block;
+    width: 200px;
+    height: 40px;
+}
+
+button:hover{
+    border-radius: 10px;
+    color: #BF452A;
+}
+
+#contenedorF{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 51px;
+}
+
+#contenedorF div{
+    background-color: #333;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: aliceblue;
+    padding: auto;
+}
+
+.naranja{
+    color: orange;
+}
+
+.letraGrande{
+    font-size: xx-large;
+}
+
+.textoDiv{
+    padding-top: 10px;
+}
+
+.rojo{
+    color: red;
+}
+
+.errorInput{
+    border: 2px solid darkred;
+}
+
+.validoInput{
+    border: 2px solid darkgreen;
+}

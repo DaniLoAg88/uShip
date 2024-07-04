@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uShip</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav id="nav">
+        <div id="navImg" class="col-2">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div id="navLetras" class="col-8">
+            <a href="index.html">Inicio</a>
+            <a href="#">Nacional</a>
+            <a href="#">Internacional</a>
+            <a href="#">Noticias</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div id="navSeg" class="col-2">
+            <a href="#">Seguimiento</a>
+        </div>
+    </nav>
+    <header id="contenedorH" class="col-12">
+        <img src="img/uship-envio-seguro.jpg" alt="" class="col-12">
+    </header>
+    <section id="seccionP" class="col-12">
+        <div id="divFormulario">
+                <fieldset>
+                    <p>Tipo de envío:</p><br>
+                    <select name="envio" id="envio">
+                        <option value="">Elija el tipo de envío</option>
+                        <option value="local">Local</option>
+                        <option value="provincial">Provincial</option>
+                        <option value="comunidad">Comunidad autónoma</option>
+                        <option value="nacional">Nacional</option>
+                        <option value="ceuymeli">Ceuta y Melilla</option>
+                        <option value="balycan">Baleares y Canarias</option>
+                        <option value="europa">Europa</option>
+                        <option value="mundo">Resto del mundo</option>
+                    </select>
+                    <br><br><p>Peso:</p><br>
+                    <select name="peso" id="peso">
+                        <option value="">Seleccione el peso</option>
+                        <option value="0.5">Hasta 0.5kg</option>
+                        <option value="5">Hasta 5kg</option>
+                        <option value="10">Hasta 10kg</option>
+                        <option value="20">Hasta 20kg</option>
+                    </select><br><br>
+                    <button id="calcular">Calcular precio</button>
+                </fieldset><br>
+                <label id="salidaEnvio"></label>
+        </div>
+    </section>
+    <footer id="contenedorF" class="col-12">
+        <div class="col-4">
+            <p class="naranja letraGrande">Datos de contacto</p>
+            <p class="textoDiv">Sede principal: c/La Paz, nave 45 Madrid 28003</p>
+            <p class="textoDiv">Teléfonos: 917 666 666 - 927 555 555</p>
+            <p class="textoDiv">Email: info@uship.com</p>
+        </div>
+        <div class="col-4">
+            <p class="naranja letraGrande">Redes Sociales</p>
+            <p class="textoDiv">Instagram: @uShip</p>
+            <p class="textoDiv">Facebook: uShipEnvios</p>
+            <p class="textoDiv">Twitter: @uShipEnvios</p>
+        </div>
+        <div class="col-4">
+            <p class="naranja letraGrande">Noticias</p>
+            <p class="textoDiv">Nueva sucursal uShip en Barcelona</p>
+            <p class="textoDiv">uShip número 1 en satisfacción del cliente</p>
+            <p class="textoDiv">uShip, una nueva empresa de envío internacional</p>
+        </div>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

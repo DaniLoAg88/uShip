@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    background-color: #333;
+    height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+#nav a:hover{
+    color: darkorange;
+}
+
+#navLetras{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 200px;
+}
+
+#navSeg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedorH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+#contenedorH img{
+    height: 600px;
+}
+
+fieldset{
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px 200px;
+    border: 2px groove (internal value);
+}
+
+#seccionP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 51px;
+}
+
+#divFormulario select,
+button{
+    display: block;
+    width: 200px;
+    height: 40px;
+}
+
+button:hover{
+    border-radius: 10px;
+    color: #BF452A;
+}
+
+#contenedorF{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 51px;
+}
+
+#contenedorF div{
+    background-color: #333;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: aliceblue;
+    padding: auto;
+}
+
+.naranja{
+    color: orange;
+}
+
+.letraGrande{
+    font-size: xx-large;
+}
+
+.textoDiv{
+    padding-top: 10px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav id="nav">
+        <div id="navImg" class="col-2">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div id="navLetras" class="col-8">
+            <a href="index.html">Inicio</a>
+            <a href="#">Nacional</a>
+            <a href="#">Internacional</a>
+            <a href="#">Noticias</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div id="navSeg" class="col-2">
+            <a href="#">Seguimiento</a>
+        </div>
+    </nav>
+
+    <header id="contenedorH" class="col-12">
+        <img src="img/uship-envio-seguro.jpg" alt="" class="col-12">
+    </header>
+
+    <section id="seccionP" class="col-12">
+        <div id="divContacto" class="col-6">
+                <h2>CONTACTA CON NOSOTROS</h2>
+                <p><label for="nombre">Nombre:*</label></p>
+                <p><input type="text" name="nombre" id="nombre"></p>
+                <p class="nombreError rojo"></p>
+                <br>
+                <p><label for="email">Email:*</label></p>
+                <p><input type="text" name="email" id="email"></p>
+                <p class="emailError rojo"></p>
+                <br>
+                <p><label for="consulta">Indica tu consulta:</label></p>
+                <p><textarea name="consulta" id="consulta" cols="100" rows="10"></textarea></p>
+                <br>
+                <p><button id="btnConsulta">Enviar consulta</button></p>
+        </div>
+        <div id="divFoto" class="col-6">
+            <img src="img/uship-contacto.png" alt="">
+        </div>
+    </section>
+
+    <footer id="contenedorF" class="col-12">
+        <div class="col-4">
+            <p class="naranja letraGrande">Datos de contacto</p>
+            <p class="textoDiv">Sede principal: c/La Paz, nave 45 Madrid 28003</p>
+            <p class="textoDiv">Teléfonos: 917 666 666 - 927 555 555</p>
+            <p class="textoDiv">Email: info@uship.com</p>
+        </div>
+        <div class="col-4">
+            <p class="naranja letraGrande">Redes Sociales</p>
+            <p class="textoDiv">Instagram: @uShip</p>
+            <p class="textoDiv">Facebook: uShipEnvios</p>
+            <p class="textoDiv">Twitter: @uShipEnvios</p>
+        </div>
+        <div class="col-4">
+            <p class="naranja letraGrande">Noticias</p>
+            <p class="textoDiv">Nueva sucursal uShip en Barcelona</p>
+            <p class="textoDiv">uShip número 1 en satisfacción del cliente</p>
+            <p class="textoDiv">uShip, una nueva empresa de envío internacional</p>
+        </div>
+    </footer>
+
+
+    <script src="js/contacto.js"></script>
+</body>
+</html>
