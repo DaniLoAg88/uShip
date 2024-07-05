@@ -53,45 +53,10 @@
     padding-top: 51px;
 }
 
-#divFoto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#divContacto{
+#divTexto{
     display: block;
     align-items: center;
     text-align: center;
-}
-
-#divContacto input{
-    width: 500px;
-    height: 30px;
-}
-
-#divContacto input:focus{
-    background-color: ghostwhite;
-}
-
-#btnConsulta{
-    display: inline;
-}
-
-#seccionP img{
-    width: 85%;
-    height: 400px;
-}
-
-button{
-    display: block;
-    width: 200px;
-    height: 40px;
-}
-
-button:hover{
-    border-radius: 10px;
-    color: #BF452A;
 }
 
 #contenedorF{
@@ -122,14 +87,12 @@ button:hover{
     padding-top: 10px;
 }
 
-.rojo{
-    color: red;
+.fotoTarifas{
+    width: 650px;
+    height: 550px;
 }
 
-.errorInput{
-    border: 2px solid darkred;
-}
-
-.validoInput{
-    border: 2px solid darkgreen;
+#flechasTexto{
+    width: 20px;
+    height: 25px;
 }

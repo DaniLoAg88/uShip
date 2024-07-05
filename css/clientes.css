@@ -51,6 +51,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 51px;
+    /* background-color: #F9F9F9; */
 }
 
 #divFoto{
@@ -74,7 +75,7 @@
     background-color: ghostwhite;
 }
 
-#btnConsulta{
+#btnLogin{
     display: inline;
 }
 

@@ -53,45 +53,18 @@
     padding-top: 51px;
 }
 
-#divFoto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#divContacto{
+#divTexto{
     display: block;
     align-items: center;
     text-align: center;
 }
 
-#divContacto input{
-    width: 500px;
-    height: 30px;
+.fotoPeq{
+    width: 400px;
 }
 
-#divContacto input:focus{
-    background-color: ghostwhite;
-}
-
-#btnConsulta{
-    display: inline;
-}
-
-#seccionP img{
-    width: 85%;
-    height: 400px;
-}
-
-button{
-    display: block;
-    width: 200px;
-    height: 40px;
-}
-
-button:hover{
-    border-radius: 10px;
-    color: #BF452A;
+.fotoGrand{
+    width: 600px
 }
 
 #contenedorF{
@@ -120,16 +93,4 @@ button:hover{
 
 .textoDiv{
     padding-top: 10px;
-}
-
-.rojo{
-    color: red;
-}
-
-.errorInput{
-    border: 2px solid darkred;
-}
-
-.validoInput{
-    border: 2px solid darkgreen;
 }
